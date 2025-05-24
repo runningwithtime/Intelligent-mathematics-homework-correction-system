@@ -188,3 +188,172 @@ class MCPClient:
     async def __aexit__(self, exc_type, exc_val, exc_tb):
         """异步上下文管理器出口"""
         await self.disconnect()
+
+
+# ===============================
+# 全局客户端管理
+# ===============================
+
+# 全局客户端实例
+_global_client: Optional[MCPClient] = None
+_client_lock = asyncio.Lock() if hasattr(asyncio, 'Lock') else None
+
+async def get_global_client(host: str = "localhost", port: int = 8765) -> MCPClient:
+    """
+    获取全局MCP客户端实例 - 单例模式
+
+    Args:
+        host: MCP服务器主机地址
+        port: MCP服务器端口
+
+    Returns:
+        MCPClient: 全局客户端实例
+    """
+    global _global_client
+
+    if _global_client is None:
+        _global_client = MCPClient(host=host, port=port)
+
+        # 如果还没有连接，尝试连接
+        if not _global_client.is_connected():
+            try:
+                await _global_client.connect()
+                logger.info("✅ 全局MCP客户端连接成功")
+            except Exception as e:
+                logger.warning(f"全局MCP客户端连接失败: {e}")
+                # 即使连接失败，也返回客户端实例，允许后续重试
+
+    return _global_client
+
+def get_global_client_sync(host: str = "localhost", port: int = 8765) -> MCPClient:
+    """
+    同步方式获取全局客户端（不进行连接）
+
+    Args:
+        host: MCP服务器主机地址
+        port: MCP服务器端口
+
+    Returns:
+        MCPClient: 全局客户端实例
+    """
+    global _global_client
+
+    if _global_client is None:
+        _global_client = MCPClient(host=host, port=port)
+        logger.info("创建全局MCP客户端实例")
+
+    return _global_client
+
+async def close_global_client():
+    """关闭全局客户端"""
+    global _global_client
+
+    if _global_client is not None:
+        try:
+            await _global_client.disconnect()
+            logger.info("全局MCP客户端已关闭")
+        except Exception as e:
+            logger.error(f"关闭全局客户端时出错: {e}")
+        finally:
+            _global_client = None
+
+def reset_global_client():
+    """重置全局客户端（不关闭连接）"""
+    global _global_client
+    _global_client = None
+    logger.info("全局MCP客户端已重置")
+
+
+# ===============================
+# 工厂函数和便利函数
+# ===============================
+
+def create_mcp_client(host: str = "localhost", port: int = 8765) -> MCPClient:
+    """
+    创建MCP客户端实例 - 工厂函数
+
+    Args:
+        host: MCP服务器主机地址，默认为localhost
+        port: MCP服务器端口，默认为8765
+
+    Returns:
+        MCPClient: MCP客户端实例
+
+    Example:
+        # 基本用法
+        client = create_mcp_client()
+
+        # 自定义主机和端口
+        client = create_mcp_client("192.168.1.100", 9000)
+
+        # 使用异步上下文管理器
+        async with create_mcp_client() as client:
+            result = await client.call_tool("math_solver", {"expression": "2+2"})
+    """
+    return MCPClient(host=host, port=port)
+
+
+async def quick_mcp_call(tool_name: str, arguments: Dict[str, Any],
+                         host: str = "localhost", port: int = 8765) -> Dict[str, Any]:
+    """
+    快速调用MCP工具的便利函数
+
+    Args:
+        tool_name: 工具名称
+        arguments: 工具参数
+        host: MCP服务器主机地址
+        port: MCP服务器端口
+
+    Returns:
+        Dict[str, Any]: 工具调用结果
+
+    Example:
+        result = await quick_mcp_call("math_solver", {"expression": "2+2"})
+    """
+    async with create_mcp_client(host, port) as client:
+        return await client.call_tool(tool_name, arguments)
+
+
+async def check_mcp_server_health(host: str = "localhost", port: int = 8765) -> Dict[str, Any]:
+    """
+    检查MCP服务器健康状态
+
+    Args:
+        host: MCP服务器主机地址
+        port: MCP服务器端口
+
+    Returns:
+        Dict[str, Any]: 健康状态信息
+    """
+    try:
+        client = create_mcp_client(host, port)
+
+        # 尝试连接
+        connect_success = await client.connect()
+        if not connect_success:
+            return {
+                "status": "unhealthy",
+                "message": "无法连接到MCP服务器",
+                "connected": False
+            }
+
+        # 尝试ping
+        ping_success = await client.ping()
+
+        # 断开连接
+        await client.disconnect()
+
+        return {
+            "status": "healthy" if ping_success else "partial",
+            "message": "MCP服务器运行正常" if ping_success else "连接成功但ping失败",
+            "connected": True,
+            "ping_success": ping_success
+        }
+
+    except Exception as e:
+        return {
+            "status": "unhealthy",
+            "message": f"健康检查失败: {str(e)}",
+            "connected": False,
+            "error": str(e)
+        }
