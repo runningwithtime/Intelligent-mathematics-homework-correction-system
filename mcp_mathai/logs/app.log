@@ -1,0 +1,584 @@
+2025-05-23 21:42:58,565 - main - INFO - 启动模式: all
+2025-05-23 21:42:58,573 - main - INFO - 启动完整系统...
+2025-05-23 21:43:37,714 - gui - ERROR - 异步批改失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 21:47:42,421 - gui - ERROR - 异步批改失败: Instance <Student at 0x24a35efe410> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-05-23 21:49:35,772 - main - INFO - 启动模式: all
+2025-05-23 21:49:35,772 - main - INFO - 启动完整系统...
+2025-05-23 21:50:08,421 - gui - ERROR - 异步批改失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 21:55:01,549 - main - INFO - 启动模式: server
+2025-05-23 21:55:01,551 - main - ERROR - 启动服务器失败: 未找到NVIDIA API密钥
+2025-05-23 21:56:41,067 - main - INFO - 启动模式: server
+2025-05-23 21:56:41,069 - main - ERROR - 启动服务器失败: 未找到NVIDIA API密钥
+2025-05-23 21:59:47,590 - main - INFO - 启动模式: server
+2025-05-23 21:59:47,653 - main - ERROR - 启动服务器失败: [Errno 10048] error while attempting to bind on address ('::1', 8765, 0, 0): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+2025-05-23 22:01:49,107 - main - INFO - 启动模式: server
+2025-05-23 22:01:49,117 - main - ERROR - 启动服务器失败: [Errno 10048] error while attempting to bind on address ('::1', 8765, 0, 0): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+2025-05-23 22:02:46,548 - main - INFO - 启动模式: server
+2025-05-23 22:06:47,378 - main - INFO - 启动模式: all
+2025-05-23 22:06:47,379 - main - INFO - 启动完整系统...
+2025-05-23 22:07:14,331 - gui - ERROR - 异步批改失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 22:11:09,693 - main - INFO - 启动模式: server
+2025-05-23 22:17:13,352 - main - INFO - 启动模式: server
+2025-05-23 22:23:33,374 - main - INFO - 启动模式: server
+2025-05-23 22:28:39,852 - main - INFO - 启动模式: all
+2025-05-23 22:28:39,919 - main - INFO - 启动完整系统...
+2025-05-23 22:29:01,022 - gui - ERROR - 异步批改失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 22:43:25,019 - main - INFO - 启动模式: all
+2025-05-23 22:43:25,058 - main - INFO - 启动完整系统...
+2025-05-23 22:43:44,570 - gui - ERROR - 异步批改失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 22:46:49,113 - main - INFO - 启动模式: all
+2025-05-23 22:46:49,113 - main - INFO - 启动完整系统...
+2025-05-23 22:47:04,158 - gui - ERROR - 异步批改失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 23:10:21,215 - gui - INFO - 用户中断应用
+2025-05-23 23:11:08,206 - main - INFO - 启动模式: all
+2025-05-23 23:11:08,234 - main - INFO - 启动完整系统...
+2025-05-23 23:11:09,179 - gui - INFO - 启动数学批改系统GUI
+2025-05-23 23:11:09,258 - gui - INFO - 状态更新: 系统已启动
+2025-05-23 23:11:33,693 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-23 23:11:35,019 - gui - INFO - 状态更新: 正在批改中...
+2025-05-23 23:11:37,676 - gui - WARNING - MCP连接尝试 1/3 失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 23:11:39,720 - gui - WARNING - MCP连接尝试 2/3 失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 23:11:41,752 - gui - WARNING - MCP连接尝试 3/3 失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 23:11:41,753 - gui - ERROR - MCP连接失败，尝试使用离线模式
+2025-05-23 23:11:41,771 - gui - INFO - 使用离线批改模式
+2025-05-23 23:11:42,007 - gui - INFO - 状态更新: 批改完成（离线模式）
+2025-05-23 23:16:49,186 - gui - INFO - GUI应用已关闭
+2025-05-23 23:17:03,219 - main - INFO - 启动模式: all
+2025-05-23 23:17:03,219 - main - INFO - 启动完整系统...
+2025-05-23 23:17:03,668 - gui - INFO - 启动数学批改系统GUI
+2025-05-23 23:17:03,727 - gui - INFO - 状态更新: 系统已启动
+2025-05-23 23:17:33,103 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-23 23:17:40,943 - gui - INFO - 状态更新: 正在批改中...
+2025-05-23 23:17:41,000 - gui - WARNING - MCP连接尝试 1/3 失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 23:17:43,022 - gui - WARNING - MCP连接尝试 2/3 失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 23:17:45,037 - gui - WARNING - MCP连接尝试 3/3 失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 23:17:45,038 - gui - ERROR - MCP连接失败，尝试使用离线模式
+2025-05-23 23:17:45,039 - gui - INFO - 使用离线批改模式
+2025-05-23 23:17:45,074 - gui - INFO - 状态更新: 批改完成（离线模式）
+2025-05-23 23:34:35,140 - gui - INFO - GUI应用已关闭
+2025-05-23 23:36:30,548 - main - INFO - 启动模式: all
+2025-05-23 23:36:30,549 - main - INFO - 启动完整系统...
+2025-05-23 23:36:30,800 - gui - INFO - 启动数学批改系统GUI
+2025-05-23 23:36:30,890 - gui - INFO - 状态更新: 系统已启动
+2025-05-23 23:36:47,289 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-23 23:36:48,661 - gui - INFO - 状态更新: 正在批改中...
+2025-05-23 23:36:49,021 - gui - WARNING - MCP连接尝试 1/3 失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 23:36:51,040 - gui - WARNING - MCP连接尝试 2/3 失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 23:36:53,047 - gui - WARNING - MCP连接尝试 3/3 失败: 无法连接到MCP服务器: received 1011 (internal error); then sent 1011 (internal error)
+2025-05-23 23:36:53,047 - gui - ERROR - MCP连接失败，尝试使用离线模式
+2025-05-23 23:36:53,048 - gui - INFO - 使用离线批改模式
+2025-05-23 23:36:53,052 - gui - INFO - 状态更新: 批改完成（离线模式）
+2025-05-24 00:00:20,094 - gui - INFO - 用户中断应用
+2025-05-24 00:00:20,364 - gui - INFO - GUI应用已关闭
+2025-05-24 00:00:27,518 - main - INFO - 启动模式: all
+2025-05-24 00:00:27,519 - main - INFO - 启动完整系统...
+2025-05-24 00:00:27,832 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 00:00:27,856 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 00:01:12,355 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 00:01:13,479 - gui - INFO - 状态更新: 正在批改中...
+2025-05-24 00:01:13,688 - gui - INFO - MCP客户端连接成功
+2025-05-24 00:01:14,205 - gui - ERROR - 数据库操作失败: Instance <Student at 0x1d98a6f2e30> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-05-24 00:01:14,207 - gui - INFO - 使用简化批改模式
+2025-05-24 00:01:14,246 - gui - INFO - 状态更新: 批改完成（简化模式）
+2025-05-24 00:01:49,081 - gui - INFO - 状态更新: 正在批改中...
+2025-05-24 00:01:49,214 - gui - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: students.student_id
+[SQL: INSERT INTO students (id, name, student_id, grade, created_at) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('52afe1cb-bf7e-45b3-a4d6-836be6450bf4', '张三', 'STU_7041', '高一', '2025-05-23 16:01:49.084802')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-24 00:01:49,214 - gui - INFO - 使用简化批改模式
+2025-05-24 00:01:49,225 - gui - INFO - 状态更新: 批改完成（简化模式）
+2025-05-24 00:22:01,093 - gui - INFO - 状态更新: 正在批改中...
+2025-05-24 00:22:03,265 - gui - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: students.student_id
+[SQL: INSERT INTO students (id, name, student_id, grade, created_at) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('f0152de3-f6da-4533-b897-259eae46b09a', '张三', 'STU_7041', '高一', '2025-05-23 16:22:03.085188')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-24 00:22:03,294 - gui - INFO - 使用简化批改模式
+2025-05-24 00:22:03,471 - gui - INFO - 状态更新: 批改完成（简化模式）
+2025-05-24 00:22:09,954 - gui - INFO - 状态更新: 正在批改中...
+2025-05-24 00:22:10,141 - gui - ERROR - 数据库操作失败: (sqlite3.IntegrityError) UNIQUE constraint failed: students.student_id
+[SQL: INSERT INTO students (id, name, student_id, grade, created_at) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('c0333feb-c6c2-4d1d-960e-570745baa6d3', '张三', 'STU_7041', '高一', '2025-05-23 16:22:10.139504')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-24 00:22:10,142 - gui - INFO - 使用简化批改模式
+2025-05-24 00:22:10,163 - gui - INFO - 状态更新: 批改完成（简化模式）
+2025-05-24 00:22:21,365 - gui - INFO - GUI应用已关闭
+2025-05-24 00:32:08,340 - main - INFO - 启动模式: all
+2025-05-24 00:32:08,367 - main - INFO - 启动完整系统...
+2025-05-24 00:32:09,108 - main - ERROR - 启动GUI失败: 'MathGradingGUI' object has no attribute 'export_results'
+2025-05-24 00:32:20,411 - main - INFO - 启动模式: all
+2025-05-24 00:32:20,412 - main - INFO - 启动完整系统...
+2025-05-24 00:32:20,459 - main - ERROR - 启动GUI失败: 'MathGradingGUI' object has no attribute 'export_results'
+2025-05-24 01:07:01,426 - main - INFO - 启动模式: all
+2025-05-24 01:07:01,429 - main - INFO - 启动完整系统...
+2025-05-24 01:07:02,651 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 01:07:04,665 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 01:09:18,253 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 01:09:21,256 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 01:09:22,398 - gui - INFO - MCP客户端连接成功
+2025-05-24 01:09:22,534 - gui - ERROR - 数据库操作失败: Instance <Student at 0x14fbdf12f80> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-05-24 01:09:22,535 - gui - INFO - 使用简化批改模式
+2025-05-24 01:09:22,573 - gui - INFO - 状态更新: 批改完成（简化模式）
+2025-05-24 01:21:25,604 - gui - INFO - 用户中断应用
+2025-05-24 01:21:25,609 - gui - INFO - GUI应用已关闭
+2025-05-24 01:21:35,403 - main - INFO - 启动模式: all
+2025-05-24 01:21:35,403 - main - INFO - 启动完整系统...
+2025-05-24 01:21:35,869 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 01:21:35,911 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 01:28:48,446 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 01:28:50,395 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 01:28:51,801 - gui - INFO - MCP客户端连接成功
+2025-05-24 01:28:52,063 - gui - ERROR - 数据库操作失败: Instance <Student at 0x20417632e60> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-05-24 01:28:52,064 - gui - INFO - 使用简化批改模式
+2025-05-24 01:28:52,111 - gui - INFO - 状态更新: 批改完成（简化模式）
+2025-05-24 01:36:23,001 - gui - INFO - 用户中断应用
+2025-05-24 01:36:23,001 - gui - INFO - GUI应用已关闭
+2025-05-24 01:36:29,822 - main - INFO - 启动模式: all
+2025-05-24 01:36:29,823 - main - INFO - 启动完整系统...
+2025-05-24 01:36:30,146 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 01:36:30,185 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 01:36:48,427 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 01:36:50,990 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 01:36:51,923 - gui - INFO - MCP客户端连接成功
+2025-05-24 01:36:51,925 - gui - INFO - 开始创建学生记录...
+2025-05-24 01:36:52,055 - gui - INFO - 学生记录创建完成，获取ID...
+2025-05-24 01:36:52,067 - gui - ERROR - 获取学生ID时出错: Instance <Student at 0x224e8630be0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-05-24 01:36:52,067 - gui - WARNING - 使用临时ID: 81029
+2025-05-24 01:36:52,067 - gui - INFO - 开始创建作业记录...
+2025-05-24 01:36:52,216 - gui - INFO - 作业记录创建完成，获取ID...
+2025-05-24 01:36:52,216 - gui - ERROR - 获取作业ID时出错: Instance <Homework at 0x224e8633370> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-05-24 01:36:52,217 - gui - ERROR - 数据库操作详细错误: 数据库操作失败，无法获取作业ID
+2025-05-24 01:36:52,217 - gui - INFO - 使用简化批改模式
+2025-05-24 01:36:52,232 - gui - INFO - 状态更新: 批改完成（简化模式）
+2025-05-24 01:41:52,739 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 01:41:52,741 - gui - INFO - 开始创建学生记录...
+2025-05-24 01:41:52,758 - gui - ERROR - 数据库操作详细错误: (sqlite3.IntegrityError) UNIQUE constraint failed: students.student_id
+[SQL: INSERT INTO students (id, name, student_id, grade, created_at) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('085ac00a-9ceb-408f-b74a-dd870ef5ccb7', '张三', 'STU_1029', '高一', '2025-05-23 17:41:52.744014')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-24 01:41:52,758 - gui - INFO - 使用简化批改模式
+2025-05-24 01:41:52,772 - gui - INFO - 状态更新: 批改完成（简化模式）
+2025-05-24 02:01:20,649 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 02:01:20,652 - gui - INFO - 开始创建学生记录...
+2025-05-24 02:01:20,824 - gui - ERROR - 数据库操作详细错误: (sqlite3.IntegrityError) UNIQUE constraint failed: students.student_id
+[SQL: INSERT INTO students (id, name, student_id, grade, created_at) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('5120f9f6-beac-40bd-ab10-3369ca7bd8c9', '张三', 'STU_1029', '高一', '2025-05-23 18:01:20.820891')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-05-24 02:01:20,826 - gui - INFO - 使用简化批改模式
+2025-05-24 02:01:20,844 - gui - INFO - 状态更新: 批改完成（简化模式）
+2025-05-24 02:01:40,067 - gui - INFO - 用户中断应用
+2025-05-24 02:01:40,068 - gui - INFO - GUI应用已关闭
+2025-05-24 02:12:15,196 - main - INFO - 启动模式: all
+2025-05-24 02:12:15,229 - main - INFO - 启动完整系统...
+2025-05-24 02:12:15,923 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 02:12:16,184 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 02:12:33,137 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 02:12:33,876 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 02:12:38,414 - gui - ERROR - 批改任务失败: AI批改引擎故障: 无法连接到MCP服务器: [WinError 1225] 远程计算机拒绝网络连接。
+Traceback (most recent call last):
+  File "E:\桌面\mcp_mathai\mcp_client\client.py", line 31, in connect
+    self.websocket = await websockets.connect(
+  File "E:\Miniconda\envs\openai2\lib\site-packages\websockets\asyncio\client.py", line 541, in __await_impl__
+    self.connection = await self.create_connection()
+  File "E:\Miniconda\envs\openai2\lib\site-packages\websockets\asyncio\client.py", line 467, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "E:\Miniconda\envs\openai2\lib\asyncio\base_events.py", line 1081, in create_connection
+    raise exceptions[0]
+  File "E:\Miniconda\envs\openai2\lib\asyncio\base_events.py", line 1060, in create_connection
+    sock = await self._connect_sock(
+  File "E:\Miniconda\envs\openai2\lib\asyncio\base_events.py", line 969, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "E:\Miniconda\envs\openai2\lib\asyncio\proactor_events.py", line 709, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "E:\Miniconda\envs\openai2\lib\asyncio\windows_events.py", line 826, in _poll
+    value = callback(transferred, key, ov)
+  File "E:\Miniconda\envs\openai2\lib\asyncio\windows_events.py", line 613, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] 远程计算机拒绝网络连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\桌面\mcp_mathai\frontend\gui.py", line 335, in _async_grade_homework
+    await self.mcp_client.connect()
+  File "E:\桌面\mcp_mathai\mcp_client\client.py", line 48, in connect
+    raise APIConnectionError(f"无法连接到MCP服务器: {e}")
+utils.exceptions.APIConnectionError: 无法连接到MCP服务器: [WinError 1225] 远程计算机拒绝网络连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\桌面\mcp_mathai\frontend\gui.py", line 305, in grade_task
+    results = future.result(timeout=300)  # 5分钟超时
+  File "E:\Miniconda\envs\openai2\lib\concurrent\futures\_base.py", line 458, in result
+    return self.__get_result()
+  File "E:\Miniconda\envs\openai2\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "E:\桌面\mcp_mathai\frontend\gui.py", line 370, in _async_grade_homework
+    raise MathGradingException(f"AI批改引擎故障: {str(e)}")
+utils.exceptions.MathGradingException: AI批改引擎故障: 无法连接到MCP服务器: [WinError 1225] 远程计算机拒绝网络连接。
+2025-05-24 02:12:38,462 - gui - INFO - 状态更新: 服务连接失败
+2025-05-24 02:17:42,593 - gui - INFO - 用户中断应用
+2025-05-24 02:17:42,593 - gui - INFO - GUI应用已关闭
+2025-05-24 02:17:44,310 - main - INFO - 启动模式: all
+2025-05-24 02:17:44,310 - main - INFO - 启动完整系统...
+2025-05-24 02:17:44,377 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 02:17:44,413 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 02:18:02,924 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 02:18:04,081 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 02:18:08,207 - gui - ERROR - 批改任务失败: AI批改引擎故障: 无法连接到MCP服务器: [WinError 1225] 远程计算机拒绝网络连接。
+Traceback (most recent call last):
+  File "E:\桌面\mcp_mathai\mcp_client\client.py", line 31, in connect
+    self.websocket = await websockets.connect(
+  File "E:\Miniconda\envs\openai2\lib\site-packages\websockets\asyncio\client.py", line 541, in __await_impl__
+    self.connection = await self.create_connection()
+  File "E:\Miniconda\envs\openai2\lib\site-packages\websockets\asyncio\client.py", line 467, in create_connection
+    _, connection = await loop.create_connection(factory, **kwargs)
+  File "E:\Miniconda\envs\openai2\lib\asyncio\base_events.py", line 1081, in create_connection
+    raise exceptions[0]
+  File "E:\Miniconda\envs\openai2\lib\asyncio\base_events.py", line 1060, in create_connection
+    sock = await self._connect_sock(
+  File "E:\Miniconda\envs\openai2\lib\asyncio\base_events.py", line 969, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "E:\Miniconda\envs\openai2\lib\asyncio\proactor_events.py", line 709, in sock_connect
+    return await self._proactor.connect(sock, address)
+  File "E:\Miniconda\envs\openai2\lib\asyncio\windows_events.py", line 826, in _poll
+    value = callback(transferred, key, ov)
+  File "E:\Miniconda\envs\openai2\lib\asyncio\windows_events.py", line 613, in finish_connect
+    ov.getresult()
+ConnectionRefusedError: [WinError 1225] 远程计算机拒绝网络连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\桌面\mcp_mathai\frontend\gui.py", line 335, in _async_grade_homework
+    await self.mcp_client.connect()
+  File "E:\桌面\mcp_mathai\mcp_client\client.py", line 48, in connect
+    raise APIConnectionError(f"无法连接到MCP服务器: {e}")
+utils.exceptions.APIConnectionError: 无法连接到MCP服务器: [WinError 1225] 远程计算机拒绝网络连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\桌面\mcp_mathai\frontend\gui.py", line 305, in grade_task
+    results = future.result(timeout=300)  # 5分钟超时
+  File "E:\Miniconda\envs\openai2\lib\concurrent\futures\_base.py", line 458, in result
+    return self.__get_result()
+  File "E:\Miniconda\envs\openai2\lib\concurrent\futures\_base.py", line 403, in __get_result
+    raise self._exception
+  File "E:\桌面\mcp_mathai\frontend\gui.py", line 370, in _async_grade_homework
+    raise MathGradingException(f"AI批改引擎故障: {str(e)}")
+utils.exceptions.MathGradingException: AI批改引擎故障: 无法连接到MCP服务器: [WinError 1225] 远程计算机拒绝网络连接。
+2025-05-24 02:18:08,214 - gui - INFO - 状态更新: 服务连接失败
+2025-05-24 02:21:25,011 - gui - INFO - 用户中断应用
+2025-05-24 02:21:25,012 - gui - INFO - GUI应用已关闭
+2025-05-24 02:21:26,492 - main - INFO - 启动模式: all
+2025-05-24 02:21:26,492 - main - INFO - 启动完整系统...
+2025-05-24 02:21:26,561 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 02:21:26,595 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 02:21:43,160 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 02:21:44,679 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 02:21:44,728 - gui - INFO - MCP客户端连接成功
+2025-05-24 02:21:44,730 - grading_engine - INFO - 初始化批改引擎
+2025-05-24 02:21:44,841 - gui - WARNING - 数据库问题，但继续AI批改: (sqlite3.OperationalError) no such column: students.class_name
+[SQL: SELECT students.id AS students_id, students.student_id AS students_student_id, students.name AS students_name, students.grade AS students_grade, students.class_name AS students_class_name, students.school AS students_school, students.total_homeworks AS students_total_homeworks, students.total_score AS students_total_score, students.average_score AS students_average_score, students.created_at AS students_created_at, students.updated_at AS students_updated_at 
+FROM students 
+WHERE students.name = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('张三', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-24 02:21:44,852 - grading_engine - INFO - 开始批改作业: ID=58108, 年级=高一
+2025-05-24 02:21:44,854 - grading_engine - INFO - NVIDIA API连接测试成功
+2025-05-24 02:21:44,854 - grading_engine - INFO - 使用AI批改引擎
+2025-05-24 02:21:44,995 - gui - INFO - 状态更新: 批改完成，用时: 0.07秒
+2025-05-24 02:29:11,639 - gui - INFO - 用户中断应用
+2025-05-24 02:29:11,639 - gui - INFO - GUI应用已关闭
+2025-05-24 02:29:20,940 - main - INFO - 启动模式: all
+2025-05-24 02:29:20,941 - main - INFO - 启动完整系统...
+2025-05-24 02:29:21,292 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 02:29:21,342 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 02:29:37,572 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 02:29:38,573 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 02:29:38,772 - gui - INFO - MCP客户端连接成功
+2025-05-24 02:29:38,773 - grading_engine - INFO - 初始化批改引擎
+2025-05-24 02:29:38,824 - gui - WARNING - 数据库问题，但继续AI批改: (sqlite3.OperationalError) no such column: students.school
+[SQL: SELECT students.id AS students_id, students.student_id AS students_student_id, students.name AS students_name, students.grade AS students_grade, students.class_name AS students_class_name, students.school AS students_school, students.total_homeworks AS students_total_homeworks, students.total_score AS students_total_score, students.average_score AS students_average_score, students.created_at AS students_created_at, students.updated_at AS students_updated_at 
+FROM students 
+WHERE students.name = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('张三', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-05-24 02:29:38,918 - grading_engine - INFO - 开始批改作业: ID=21913, 年级=高一
+2025-05-24 02:29:38,921 - grading_engine - INFO - NVIDIA API连接测试成功
+2025-05-24 02:29:38,922 - grading_engine - INFO - 使用AI批改引擎
+2025-05-24 02:29:39,046 - gui - INFO - 状态更新: 批改完成，用时: 0.11秒
+2025-05-24 02:39:25,068 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 02:39:25,111 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 02:39:39,381 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 02:39:41,103 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 02:39:41,317 - gui - INFO - 状态更新: 批改完成，用时: 2.50秒
+2025-05-24 02:41:53,063 - gui - INFO - 用户中断应用
+2025-05-24 02:41:53,064 - gui - INFO - GUI应用已关闭
+2025-05-24 02:41:57,459 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 02:41:57,515 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 02:42:15,945 - gui - INFO - 状态更新: 已加载图像: LLM.png
+2025-05-24 02:42:25,520 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 02:42:27,362 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 02:42:27,465 - gui - INFO - 状态更新: 批改完成，用时: 2.50秒
+2025-05-24 02:43:49,316 - gui - INFO - GUI应用已关闭
+2025-05-24 02:51:17,687 - gui - INFO - 用户中断应用
+2025-05-24 02:51:17,688 - gui - INFO - GUI应用已关闭
+2025-05-24 02:51:46,293 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 02:51:46,328 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 02:52:01,502 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 02:52:03,349 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 02:52:03,529 - gui - INFO - 状态更新: 批改完成，用时: 2.50秒
+2025-05-24 03:00:24,013 - gui - INFO - 用户中断应用
+2025-05-24 03:00:24,014 - gui - INFO - GUI应用已关闭
+2025-05-24 03:00:33,852 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 03:00:33,901 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 03:00:45,729 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 03:00:47,406 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 03:00:47,767 - gui - INFO - 状态更新: 批改完成，用时: 2.50秒
+2025-05-24 03:04:22,363 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 03:04:22,458 - gui - INFO - 状态更新: 批改完成，用时: 2.50秒
+2025-05-24 03:08:01,778 - gui - INFO - 用户中断应用
+2025-05-24 03:08:01,778 - gui - INFO - GUI应用已关闭
+2025-05-24 03:08:05,712 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 03:08:05,743 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 03:08:20,374 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 03:08:21,697 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 03:08:21,830 - gui - INFO - 状态更新: 批改完成，用时: 2.50秒
+2025-05-24 03:08:25,542 - gui - INFO - GUI应用已关闭
+2025-05-24 03:10:19,085 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 03:10:19,125 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 03:10:34,613 - gui - INFO - 状态更新: 已加载图像: 例题.jpg
+2025-05-24 03:10:36,185 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 03:10:36,432 - gui - INFO - 状态更新: 批改完成，用时: 2.50秒
+2025-05-24 03:10:46,714 - gui - INFO - GUI应用已关闭
+2025-05-24 11:27:44,879 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 11:27:44,954 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 11:27:58,151 - gui - INFO - 状态更新: 已加载图像: 学生作业图片.png
+2025-05-24 11:28:00,417 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:28:00,679 - gui - INFO - 状态更新: 批改完成，用时: 2.92秒
+2025-05-24 11:36:22,783 - gui - INFO - 状态更新: 已加载图像: h1.png
+2025-05-24 11:36:25,387 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:36:25,422 - gui - INFO - 状态更新: 批改完成，用时: 3.82秒
+2025-05-24 11:39:04,081 - gui - INFO - 状态更新: 已加载图像: h2.png
+2025-05-24 11:39:07,187 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:39:07,212 - gui - INFO - 状态更新: 批改完成，用时: 3.12秒
+2025-05-24 11:40:40,236 - gui - INFO - 状态更新: 已加载图像: h3.png
+2025-05-24 11:40:41,883 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:40:41,901 - gui - INFO - 状态更新: 批改完成，用时: 2.64秒
+2025-05-24 11:41:00,644 - gui - INFO - 状态更新: 已加载图像: h4.png
+2025-05-24 11:41:02,576 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:41:02,604 - gui - INFO - 状态更新: 批改完成，用时: 3.60秒
+2025-05-24 11:41:08,768 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:41:08,784 - gui - INFO - 状态更新: 批改完成，用时: 2.86秒
+2025-05-24 11:41:13,311 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:41:13,333 - gui - INFO - 状态更新: 批改完成，用时: 3.25秒
+2025-05-24 11:41:16,928 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:41:16,943 - gui - INFO - 状态更新: 批改完成，用时: 2.55秒
+2025-05-24 11:41:19,593 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:41:19,619 - gui - INFO - 状态更新: 批改完成，用时: 3.95秒
+2025-05-24 11:41:23,667 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:41:23,692 - gui - INFO - 状态更新: 批改完成，用时: 2.85秒
+2025-05-24 11:41:28,121 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:41:28,150 - gui - INFO - 状态更新: 批改完成，用时: 3.86秒
+2025-05-24 11:42:24,580 - gui - INFO - 状态更新: 已加载图像: h1.png
+2025-05-24 11:42:32,421 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:42:32,441 - gui - INFO - 状态更新: 批改完成，用时: 3.17秒
+2025-05-24 11:52:15,503 - gui - INFO - 状态更新: 已加载图像: h2.png
+2025-05-24 11:52:20,189 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 11:52:20,212 - gui - INFO - 状态更新: 批改完成，用时: 2.63秒
+2025-05-24 12:14:53,768 - gui - INFO - 状态更新: 已加载图像: Q6.png
+2025-05-24 12:14:59,591 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:14:59,627 - gui - INFO - 状态更新: 批改完成，用时: 2.40秒
+2025-05-24 12:37:57,111 - gui - INFO - 状态更新: 已加载图像: Q5.png
+2025-05-24 12:38:01,740 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:38:01,754 - gui - INFO - 状态更新: 批改完成，用时: 3.20秒
+2025-05-24 12:39:15,894 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:39:15,908 - gui - INFO - 状态更新: 批改完成，用时: 3.20秒
+2025-05-24 12:53:44,640 - gui - INFO - GUI应用已关闭
+2025-05-24 12:54:27,637 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 12:54:27,683 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 12:54:47,920 - gui - INFO - 状态更新: 已加载图像: Q5.png
+2025-05-24 12:54:54,269 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:54:55,004 - gui - INFO - 状态更新: 批改完成，用时: 3.20秒
+2025-05-24 12:55:36,079 - gui - INFO - 状态更新: 已加载图像: Q1.png
+2025-05-24 12:55:40,821 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:55:40,867 - gui - INFO - 状态更新: 批改完成，用时: 3.00秒
+2025-05-24 12:56:06,830 - gui - INFO - 状态更新: 已加载图像: Q8.png
+2025-05-24 12:56:09,907 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:56:09,935 - gui - INFO - 状态更新: 批改完成，用时: 2.91秒
+2025-05-24 12:56:18,308 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:56:18,337 - gui - INFO - 状态更新: 批改完成，用时: 3.47秒
+2025-05-24 12:56:23,232 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:56:23,365 - gui - INFO - 状态更新: 批改完成，用时: 1.80秒
+2025-05-24 12:56:29,344 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:56:29,367 - gui - INFO - 状态更新: 批改完成，用时: 2.40秒
+2025-05-24 12:56:35,767 - gui - INFO - 状态更新: 已加载图像: Q8.png
+2025-05-24 12:56:40,333 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:56:40,358 - gui - INFO - 状态更新: 批改完成，用时: 3.25秒
+2025-05-24 12:56:58,830 - gui - INFO - 状态更新: 已加载图像: Q2.png
+2025-05-24 12:57:03,387 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:57:03,415 - gui - INFO - 状态更新: 批改完成，用时: 2.38秒
+2025-05-24 12:57:22,690 - gui - INFO - 状态更新: 已加载图像: Q9.png
+2025-05-24 12:57:26,150 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:57:26,286 - gui - INFO - 状态更新: 批改完成，用时: 2.55秒
+2025-05-24 12:58:13,359 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:58:13,377 - gui - INFO - 状态更新: 批改完成，用时: 3.15秒
+2025-05-24 12:58:23,150 - gui - INFO - 状态更新: 已加载图像: Q6.png
+2025-05-24 12:58:26,510 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 12:58:26,535 - gui - INFO - 状态更新: 批改完成，用时: 2.40秒
+2025-05-24 13:04:22,946 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:04:22,966 - gui - INFO - 状态更新: 批改完成，用时: 2.40秒
+2025-05-24 13:09:55,831 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:09:59,005 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:09:59,030 - gui - INFO - 状态更新: 批改完成，用时: 2.40秒
+2025-05-24 13:21:44,772 - gui - INFO - 用户中断应用
+2025-05-24 13:21:44,774 - gui - INFO - GUI应用已关闭
+2025-05-24 13:21:51,852 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 13:21:51,885 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 13:22:02,895 - gui - INFO - 状态更新: 已加载图像: Q6.png
+2025-05-24 13:22:05,871 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:22:06,252 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:22:06,528 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 13:22:06,529 - gui - INFO - 开始显示详细反馈...
+2025-05-24 13:22:06,547 - gui - INFO - 准备显示 1 个题目的详细反馈
+2025-05-24 13:22:07,072 - gui - INFO - 状态更新: 批改完成，用时: 2.70秒
+2025-05-24 13:22:37,628 - gui - INFO - 状态更新: 已加载图像: Q2.png
+2025-05-24 13:22:41,984 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:22:41,992 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:22:41,998 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 13:22:41,998 - gui - INFO - 开始显示详细反馈...
+2025-05-24 13:22:41,998 - gui - INFO - 准备显示 1 个题目的详细反馈
+2025-05-24 13:22:42,025 - gui - INFO - 状态更新: 批改完成，用时: 3.41秒
+2025-05-24 13:23:25,242 - gui - INFO - 状态更新: 已加载图像: Q9.png
+2025-05-24 13:23:27,420 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:23:27,424 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:23:27,429 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 13:23:27,430 - gui - INFO - 开始显示详细反馈...
+2025-05-24 13:23:27,430 - gui - INFO - 准备显示 2 个题目的详细反馈
+2025-05-24 13:23:27,464 - gui - INFO - 状态更新: 批改完成，用时: 2.15秒
+2025-05-24 13:23:52,121 - gui - INFO - GUI应用已关闭
+2025-05-24 13:23:59,069 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 13:23:59,111 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 13:24:10,746 - gui - INFO - 状态更新: 已加载图像: Q2.png
+2025-05-24 13:24:12,943 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:24:13,083 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:24:13,208 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 13:24:13,210 - gui - INFO - 开始显示详细反馈...
+2025-05-24 13:24:13,210 - gui - INFO - 准备显示 2 个题目的详细反馈
+2025-05-24 13:24:13,502 - gui - INFO - 状态更新: 批改完成，用时: 2.53秒
+2025-05-24 13:24:23,585 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:24:23,589 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:24:23,710 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 13:24:23,710 - gui - INFO - 开始显示详细反馈...
+2025-05-24 13:24:23,711 - gui - INFO - 准备显示 2 个题目的详细反馈
+2025-05-24 13:24:23,728 - gui - INFO - 状态更新: 批改完成，用时: 2.38秒
+2025-05-24 13:24:37,245 - gui - INFO - GUI应用已关闭
+2025-05-24 13:25:19,426 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 13:25:19,476 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 13:25:32,750 - gui - INFO - 状态更新: 已加载图像: Q2.png
+2025-05-24 13:25:36,460 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:25:36,672 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:25:36,819 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 13:25:36,822 - gui - INFO - 开始显示详细反馈...
+2025-05-24 13:25:36,824 - gui - INFO - 准备显示 2 个题目的详细反馈
+2025-05-24 13:25:37,223 - gui - INFO - 状态更新: 批改完成，用时: 2.01秒
+2025-05-24 13:25:52,603 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:25:52,611 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:25:52,617 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 13:25:52,617 - gui - INFO - 开始显示详细反馈...
+2025-05-24 13:25:52,618 - gui - INFO - 准备显示 1 个题目的详细反馈
+2025-05-24 13:25:52,629 - gui - INFO - 状态更新: 批改完成，用时: 3.30秒
+2025-05-24 13:25:59,748 - gui - INFO - GUI应用已关闭
+2025-05-24 13:26:59,559 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 13:26:59,603 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 13:27:49,493 - gui - INFO - 状态更新: 已加载图像: Q2.png
+2025-05-24 13:27:58,882 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:27:59,017 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:27:59,055 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 13:27:59,056 - gui - INFO - 开始显示详细反馈...
+2025-05-24 13:27:59,056 - gui - INFO - 准备显示 2 个题目的详细反馈
+2025-05-24 13:27:59,329 - gui - INFO - 状态更新: 批改完成，用时: 2.43秒
+2025-05-24 13:29:27,279 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:29:29,855 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:29:29,863 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:29:29,868 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 13:29:29,869 - gui - INFO - 开始显示详细反馈...
+2025-05-24 13:29:29,869 - gui - INFO - 准备显示 2 个题目的详细反馈
+2025-05-24 13:29:29,892 - gui - INFO - 状态更新: 批改完成，用时: 2.32秒
+2025-05-24 13:29:52,752 - gui - INFO - 状态更新: 已加载图像: Q2.png
+2025-05-24 13:29:58,199 - gui - INFO - 状态更新: 已加载图像: Q9.png
+2025-05-24 13:36:59,836 - gui - INFO - GUI应用已关闭
+2025-05-24 13:40:30,807 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 13:40:30,850 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 13:41:19,663 - gui - INFO - 状态更新: 已加载图像: Q2.png
+2025-05-24 13:41:24,130 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 13:41:24,264 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 13:41:24,300 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 13:41:24,301 - gui - INFO - 开始显示详细反馈...
+2025-05-24 13:41:24,302 - gui - INFO - 准备显示 1 个题目的详细反馈
+2025-05-24 13:41:24,563 - gui - INFO - 状态更新: 批改完成，用时: 2.53秒
+2025-05-24 14:12:19,915 - gui - INFO - GUI应用已关闭
+2025-05-24 14:19:47,817 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 14:19:47,870 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 14:20:31,864 - gui - INFO - 状态更新: 已加载图像: Q2.png
+2025-05-24 14:23:55,876 - gui - INFO - GUI应用已关闭
+2025-05-24 14:26:32,629 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 14:26:32,662 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 14:27:15,831 - gui - INFO - 状态更新: 已加载图像: Q2.png
+2025-05-24 14:28:00,175 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 14:28:00,382 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 14:28:00,522 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 14:28:00,523 - gui - INFO - 开始显示详细反馈...
+2025-05-24 14:28:00,523 - gui - INFO - 准备显示 1 个题目的详细反馈
+2025-05-24 14:28:00,961 - gui - INFO - 状态更新: 批改完成，用时: 2.55秒
+2025-05-24 14:31:17,534 - gui - INFO - 状态更新: 已加载图像: Q2.png
+2025-05-24 14:31:19,681 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 14:31:19,688 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 14:31:19,697 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 14:31:19,698 - gui - INFO - 开始显示详细反馈...
+2025-05-24 14:31:19,699 - gui - INFO - 准备显示 1 个题目的详细反馈
+2025-05-24 14:31:19,717 - gui - INFO - 状态更新: 批改完成，用时: 3.46秒
+2025-05-24 14:31:31,167 - gui - INFO - GUI应用已关闭
+2025-05-24 14:34:21,424 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 14:34:21,472 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 14:34:54,123 - gui - INFO - 状态更新: 已加载图像: Q6.png
+2025-05-24 14:35:41,478 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 14:35:41,700 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 14:35:41,919 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 14:35:41,921 - gui - INFO - 开始显示详细反馈...
+2025-05-24 14:35:41,922 - gui - INFO - 准备显示 1 个题目的详细反馈
+2025-05-24 14:35:42,377 - gui - INFO - 状态更新: 批改完成，用时: 2.40秒
+2025-05-24 14:39:02,286 - gui - INFO - 状态更新: 已加载图像: Q1.png
+2025-05-24 14:39:07,537 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 14:39:07,545 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 14:39:07,552 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 14:39:07,553 - gui - INFO - 开始显示详细反馈...
+2025-05-24 14:39:07,553 - gui - INFO - 准备显示 2 个题目的详细反馈
+2025-05-24 14:39:07,620 - gui - INFO - 状态更新: 批改完成，用时: 3.90秒
+2025-05-24 14:39:22,672 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 14:39:22,677 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 14:39:22,686 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 14:39:22,686 - gui - INFO - 开始显示详细反馈...
+2025-05-24 14:39:22,687 - gui - INFO - 准备显示 1 个题目的详细反馈
+2025-05-24 14:39:22,704 - gui - INFO - 状态更新: 批改完成，用时: 3.66秒
+2025-05-24 14:39:58,170 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 14:39:58,175 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 14:39:58,184 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 14:39:58,185 - gui - INFO - 开始显示详细反馈...
+2025-05-24 14:39:58,185 - gui - INFO - 准备显示 1 个题目的详细反馈
+2025-05-24 14:39:58,203 - gui - INFO - 状态更新: 批改完成，用时: 2.40秒
+2025-05-24 14:40:12,703 - gui - INFO - GUI应用已关闭
+2025-05-24 14:41:28,353 - gui - INFO - 启动数学批改系统GUI
+2025-05-24 14:41:28,402 - gui - INFO - 状态更新: 系统已启动
+2025-05-24 14:42:11,639 - gui - INFO - 状态更新: 已加载图像: Q6.png
+2025-05-24 14:42:21,915 - gui - INFO - 状态更新: 结果已清除
+2025-05-24 14:42:22,068 - gui - INFO - 状态更新: 正在批改作业...
+2025-05-24 14:42:22,108 - gui - INFO - 批改成功，准备显示结果
+2025-05-24 14:42:22,109 - gui - INFO - 开始显示详细反馈...
+2025-05-24 14:42:22,109 - gui - INFO - 准备显示 1 个题目的详细反馈
+2025-05-24 14:42:22,405 - gui - INFO - 状态更新: 批改完成，用时: 2.40秒
+2025-05-24 14:46:42,472 - gui - INFO - GUI应用已关闭
